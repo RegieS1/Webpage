@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100%;
+    height:65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: whitesmoke;
+}
+.menu{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    font-weight:bold;    
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+
+}
+.menu a:hover{
+    text-decoration: underline;
+
+}
+.empty{
+    width: 130px;
+}
+.signUp{
+    width: 170px;
+    height: 50px;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signUp1{
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+}
+.signUp{
+    color: white;
+}
+.signUp h5{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-container{
+    width: 100%;
+    height: 100vh;
+}
+.page1{
+    width:100%;
+    height: 100vh;
+    background-color: rgb(176, 172, 223);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.pg1-inner1{
+    width: 600px;
+    height: auto;
+}
+
+
+.pg1-inner1 span{
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.pg1-inner1 button{
+    padding: 10px 20px;
+    font-size:1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.pg1-inner1 button:hover{
+    opacity: 0.8;
+}
+
+.pg1-inner1 .btn1{
+    background-color: black;
+    color: white;
+}
+
+.pg1-inner1 .in{
+    margin-top: 20px;
+}
+.pg1-inner2{
+    width: 50%;
+    height: 300px;
+    background-image: url("car1.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    
+}
+
+.page2{
+    width: 100%;
+    height: 120px;
+    background-color:rgb(63, 173, 197); 
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
+.page2 .search{
+    width: 70%;
+    height: 80px;
+    background-color:whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.page2 .srch{
+    width: 170px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around   ;
+    align-items: center;
+    transition: background-color 0.3s ease-in-out;
+
+
+}
+.page2 .srch:hover{
+    background-color: grey;
+}
+
+
+.searchbar{
+    width: 170px;
+    height: 30px;
+    display: flex;
+    background-color: rgb(245, 239, 239);
+    transition: transform 0.3s;
+
+}
+
+
+.page3{
+    width: 100%;
+    height: calc(100vh - 65px);
+    background-color: rgb(176, 172, 223);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content{
+    height: 20%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+.card{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card .cd {
+    width: 250px;
+    height: 350px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card .cd:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s; 
+
+}
+
+.cd .image{
+    height:50%;
+    width: 100%;
+    border-radius: 10px 10px 0 10px;
+
+}
+
+.item1 .image{
+    background-image: url("lam1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+.item2 .image{
+    background-image: url("lamb2.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.item3 .image{
+    background-image: url("lamb3.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.item4 .image{
+    
+    background-image: url("lamb4.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.content2 h4{
+    font-size: 25px;
+}
+
+.content2{
+    margin-top: 24px;
+    margin-left: 10px;
+    
+}
+
+.rating{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
